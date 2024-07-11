@@ -37,7 +37,7 @@ songs_list: list = json.load(open(json_url))
 #print(f"connecting to url: {url}")
 
 user = 'jchiozzini'
-password = 'AEnhQtCI2ycYDxa5' 
+password = '' 
 
 #create the connection url
 url = "mongodb+srv://{}:{}@cluster0.hr7zdz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0".format(user,password)
